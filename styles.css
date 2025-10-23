@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightblue;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 200px; /* Vertically centers the text */
+}
+
+p {
+    color: purple;
+    margin: 0; /* Remove default margin */
+}
